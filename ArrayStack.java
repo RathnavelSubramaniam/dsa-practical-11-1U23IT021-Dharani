@@ -26,7 +26,7 @@ public void push(int data )
 public int pop() 
 {
     int data =-1;
-    if (isFull())
+    if (isEmpty())
     {
         System.out.println("Stack is Underflow. No elements to be popped in Empty Stack");
     }
